@@ -23,10 +23,10 @@ angular.module('Instagram', ['ngRoute', 'ngMessages', 'satellizer'])
   $authProvider.loginUrl = 'http://localhost:3000/auth/login';
   $authProvider.signupUrl = 'http://localhost:3000/auth/signup';
   $authProvider.oauth2({
-    name: 'instagram',
+    name: 'instagram-clone',
     url: 'http://localhost:3000/auth/instagram',
     redirectUri: 'http://localhost:8000',
-    clientId: ' a175ae1fc0bb4ae5bd68541cfcabbc27',
+    clientId: '1e9b1c1e726a469ba0080c7d55b5e04a',
     requiredUrlParams: ['scope'],
     scope: ['likes'],
     scopeDelimiter: '+',
