@@ -1,4 +1,3 @@
-
 var config = require('./config');
 
 var User = mongoose.model('User', new mongoose.Schema({
@@ -12,7 +11,6 @@ var User = mongoose.model('User', new mongoose.Schema({
 }));
 
 mongoose.connect(config.db);
-
 
 
 angular.module('Instagram', ['ngRoute', 'ngMessages', 'satellizer'])
