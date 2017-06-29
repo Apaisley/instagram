@@ -10,6 +10,8 @@ var request = require('request');
 
 var config = require('./config');
 
+var compress = require('compression');
+
 var User = mongoose.model('User', new mongoose.Schema({}))
 //this ^^ is supposed to have more code
 
